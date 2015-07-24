@@ -135,8 +135,8 @@
 		84BE98BF1B1F2BA100ECDC89 /* x509.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x509.h; sourceTree = "<group>"; };
 		84BE98C01B1F2BA100ECDC89 /* x509_vfy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x509_vfy.h; sourceTree = "<group>"; };
 		84BE98C11B1F2BA100ECDC89 /* x509v3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x509v3.h; sourceTree = "<group>"; };
-		84BE98C21B1F2BA100ECDC89 /* Order.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Order.h; path = ../Alipay/Order.h; sourceTree = "<group>"; };
-		84BE98C31B1F2BA100ECDC89 /* Order.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Order.m; path = ../Alipay/Order.m; sourceTree = "<group>"; };
+		84BE98C21B1F2BA100ECDC89 /* Order.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Order.h; sourceTree = "<group>"; };
+		84BE98C31B1F2BA100ECDC89 /* Order.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Order.m; sourceTree = "<group>"; };
 		84BE98C51B1F2BA100ECDC89 /* base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = base64.h; sourceTree = "<group>"; };
 		84BE98C61B1F2BA100ECDC89 /* base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = base64.m; sourceTree = "<group>"; };
 		84BE98C71B1F2BA100ECDC89 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
@@ -254,6 +254,8 @@
 		84BE98711B1F2BA100ECDC89 /* Alipay */ = {
 			isa = PBXGroup;
 			children = (
+				84BE98C21B1F2BA100ECDC89 /* Order.h */,
+				84BE98C31B1F2BA100ECDC89 /* Order.m */,
 				84BE98721B1F2BA100ECDC89 /* AlipaySDK.bundle */,
 				84BE98731B1F2BA100ECDC89 /* AlipaySDK.framework */,
 				84BE98741B1F2BA100ECDC89 /* libcrypto.a */,
@@ -376,8 +378,6 @@
 				84BE98E41B1F2BD600ECDC89 /* GBAlipayManager.h */,
 				84BE98E51B1F2BD600ECDC89 /* GBAlipayManager.m */,
 				84BE98EA1B1F2C0400ECDC89 /* GBAlipayConfig.h */,
-				84BE98C21B1F2BA100ECDC89 /* Order.h */,
-				84BE98C31B1F2BA100ECDC89 /* Order.m */,
 			);
 			path = GBAlipayManager;
 			sourceTree = "<group>";

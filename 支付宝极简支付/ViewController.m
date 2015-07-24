@@ -51,7 +51,7 @@
 -(void)alipay{
     
     NSLog(@"支付宝支付");
-    [GBAlipayManager alipayWithProductName:@"雅思" amount:@"" tradeNO:[self generateTradeNO] notifyURL:@"www.baidu.com" productDescription:@"雅思全套书籍" itBPay:@"30"];
+    [GBAlipayManager alipayWithProductName:@"雅思" amount:@"0.01" tradeNO:[self generateTradeNO] notifyURL:@"www.baidu.com" productDescription:@"雅思全套书籍" itBPay:@"30"];
 
     
 }
