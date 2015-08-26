@@ -55,4 +55,8 @@
  */
   ```
 #效果展示：<br>
-![image](https://github.com/mokey1422/gifResource/blob/master/2015-08-26%2010_08_05.gif)
+##网页<br>
+![image1](https://github.com/mokey1422/gifResource/blob/master/2015-08-26%2010_08_05.gif)
+##客户端<br>
+
+>>![image2](https://github.com/mokey1422/gifResource/blob/master/alipay.gif)
